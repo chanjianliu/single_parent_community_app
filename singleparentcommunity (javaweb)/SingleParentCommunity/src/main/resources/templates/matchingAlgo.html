@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<title>User Matching Algorithm</title>
+</head>
+<body>
+	<div th:replace="layout/layout.html :: menu"></div>
+	<h1>User Matching Algorithm</h1>
+	
+	<br/>
+	
+	<form method="post" th:action="@{/askForMacthes}"><button type=submit>Run user matching algorithm on all users</button></form>
+	
+	<br/>
+	
+	<div th:replace="layout/layout.html :: footer"></div>
+</body>
+</html>

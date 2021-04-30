@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<div th:fragment="header" id="header">
+</div>
+
+<div th:fragment="menu" id="menu">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	
+      <a class="navbar-brand" th:href="@{/}">Single Parent Community</a>
+    </div>
+    
+    
+    <ul class="nav navbar-nav navbar-right">
+       <li><a th:href="@{/}" > Home </a></li>
+       <li><a th:href="@{/sa}" > Sentimental Analysis </a></li>
+       <li><a th:href="@{/match}">User Potential Matches</a></li>
+      <li><a th:href="@{/logout}"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<footer th:fragment="footer" id='footer' class="page-footer bg-primary text-white">
+    <div><small>Now is: <b th:text="${execInfo.now.time}"></b>
+
+    </small>
+        <br/>
+        <small>(c) Team 9 Single Parent App <br />
+            ISS, NUS 2020
+        </small>
+
+    </div>
+</footer>
+
+</body>
+</html>

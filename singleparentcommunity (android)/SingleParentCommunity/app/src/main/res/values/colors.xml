@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#FFF57C00</color>
+    <color name="tangerine">#FA8128</color>
+    <color name="marigold">#FCAE1E</color>
+    <color name="tiger">#FC6A03</color>
+    <color name="cider">#B56727</color>
+    <color name="purple_200">#7B1FA2</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- colors for button style -->
+    <color name="gradient_start_color">#FA8128</color>
+    <color name="gradient_end_color">#FC6A03</color>
+    <!-- colors for tab and screent text -->
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#E75700
+    </color>
+    <color name="intro_description_color">#656565</color>
+</resources>

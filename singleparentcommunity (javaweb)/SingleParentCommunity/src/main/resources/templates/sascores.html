@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<title>Sentimental Scores</title>
+</head>
+<body>
+	<div th:replace="layout/layout.html :: menu"></div>
+	<h1>Sentimental Scores</h1>
+	<h3 th:text="${timestamp}"></h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Username</th>
+				<th>Scores</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="scoresEntry:${scoresmap}">
+			<td><a th:href="@{/detail/}+${scoresEntry.key}"
+					th:text="${scoresEntry.key}">Username</a></td>
+					
+	
+				<td th:text="${scoresEntry.value}"></td>
+			</tr>
+		</tbody>
+	</table>
+<br>
+
+<a th:href="@{/}"><button>Back to Home</button></a>
+<br>
+
+	<div th:replace="layout/layout.html :: footer"></div>
+
+</body>
+</html>

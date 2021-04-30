@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_forum">
+
+    <fragment
+        android:id="@+id/navigation_forum"
+        android:name="com.team9.spda_team9.forum.ForumFragment"
+        android:label="@string/title_forum"
+        tools:layout="@layout/fragment_forum" />
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.team9.spda_team9.chat.ChatFragment"
+        android:label="@string/title_chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/navigation_newtopic"
+        android:name="com.team9.spda_team9.forum.Topic_Fragment"
+        android:label="NewTopic"
+        tools:layout="@layout/fragment_topic_new" />
+
+    <fragment
+        android:id="@+id/navigation_friends"
+        android:name="com.team9.spda_team9.friends.FriendsFragment"
+        android:label="@string/title_friends"
+        tools:layout="@layout/fragment_friends" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.team9.spda_team9.setting.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" />
+
+
+</navigation>

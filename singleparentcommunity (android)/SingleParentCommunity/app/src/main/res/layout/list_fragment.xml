@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:clickable="true"
+    style="@style/CardView.Light"
+    app:cardCornerRadius="8dp"
+    android:elevation="3dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp">
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="202dp"
+        android:layout_height="59dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="18dp"
+        android:text="Dating and Relationships"
+        android:textColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="126dp"
+        android:layout_height="63dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="18dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/subscribeBtn"
+            android:background="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="SUBSCRIBE" />
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

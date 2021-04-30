@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Account Information">
+        <Preference
+            app:icon="@drawable/ic_baseline_lock_focused"
+            app:key="userProfile"
+            app:summary="Manage your account"
+            app:title="Account Settings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Profile Details">
+        <Preference
+            app:icon="@drawable/ic_baseline_child_care_24"
+            app:key="changeKids"
+            app:summary="Edit Information About Children"
+            app:title="Children"></Preference>
+
+        <Preference
+            app:icon="@drawable/ic_baseline_business_center_24"
+            app:key="changeProf"
+            app:summary="Edit Location and Profession Information"
+            app:title="Location and Profession"></Preference>
+
+        <Preference
+            app:icon="@drawable/ic_baseline_attractions_24"
+            app:key="changeInterest"
+            app:summary="Edit Interests and Self-Description"
+            app:title="Interests"></Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Information">
+        <Preference
+            app:icon="@drawable/ic_baseline_info_24"
+            app:key="resource"
+            app:summary="Get Support from AWARE Singapore"
+            app:title="Resources">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.aware.org.sg/2016/03/resources-for-single-parents/#:~:text=To%20make%20an%20appointment%20or,cases%20are%20kept%20strictly%20confidential." />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Feedback">
+        <Preference
+            app:icon="@drawable/ic_baseline_email_24"
+            app:key="feedback"
+            app:summary="Let us know your thoughts about our app"
+            app:title="Send feedback" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Team 9 Details">
+        <Preference
+            app:icon="@drawable/ic_about"
+            app:key="aboutUs"
+            app:title="About"></Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Logout">
+        <Preference
+            app:icon="@drawable/ic_baseline_logout_24"
+            app:key="logout"
+            app:title="Logout">
+
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory>
+
+    </PreferenceCategory>
+</PreferenceScreen>

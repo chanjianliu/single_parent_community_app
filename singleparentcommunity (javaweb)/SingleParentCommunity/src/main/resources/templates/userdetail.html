@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<style>
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+
+<body>
+	<div th:replace="layout/layout.html :: menu"></div>
+
+	<h2 align= "center">User Detail</h2>
+	
+		<div align="center">
+	
+		<table class="w3-table-all"
+			style="width: 70%; text-align: center">
+			<tr>
+				<th style="text-align: center">Full Name</th>
+				<th style="text-align: center">Username</th>
+				<th style="text-align: center">Email</th>
+				<th style="text-align: center">Suspension status</th>
+				
+			</tr>
+
+			<tr>
+				<td style="text-align: center" th:text="${user.fullName}">Name</td>
+				<td style="text-align: center" th:text="${user.username}">username</td>
+				<td style="text-align: center" th:text="${user.email}">Email</td>
+				<td style="text-align: center" th:text="${user.suspended}">Suspended</td>
+				
+	
+		</table>
+		
+	<div>
+  <div class="center">
+    <a th:href="@{/agreement/}+${user.username}"><button>View Agreement</button></a>
+	<a th:href="@{/}+${suspendTo}+@{/}+${user.username}"><button th:text="${suspendTo}">Suspend</button></a>
+  </div>
+</div>
+	
+	</div>
+	
+	
+	
+	
+
+</body>
+
+</body>
+</html>

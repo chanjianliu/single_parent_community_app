@@ -1,0 +1,227 @@
+<resources>
+
+    <string name="app_name">Test6</string>
+    <string name="title_forum">Home</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_friends">Friend</string>
+    <string name="title_setting">Setting</string>
+    <string name="hello1">Post 1</string>
+    <string name="title_activity_posts">ScrollingActivity</string>
+    <string name="topic_title">This is a title</string>
+    <string name="topic_body">Write your forum description here</string>
+    <string name="comment_body">Write your comment here</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string-array name="Categories">
+        <item>Dating &amp; Relationships</item>
+        <item>Teenagers</item>
+        <item>Parenting</item>
+        <item>Child Care</item>
+        <item>Finances</item>
+        <item>Mental Health Support</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chat">Chat</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="dateerror">Enter a valid date</string>
+    <string name="ageerror">Enter a valid age</string>
+    <string name="kidserror">Enter a valid number</string>
+    <string name="passworderror">Password must include  UpperCase, LowerCase, Symbols and Numbers </string>
+
+    <!--    Facebook Login-->
+    <string name="facebook_app_id">157256782740290</string>
+    <string name="fb_login_protocol_scheme">fb157256782740290</string>
+
+    <string name="termsofService"> Terms of Service and</string>
+    <string name="termsofService1">By continuing you agree to our</string>
+    <string name="terms1">and our </string>
+    <string name="privacy">Privacy Policy </string>
+
+
+    <string name="text1">
+
+        Hello, users of Single Parent App! This User Agreement (“Terms”) applies to your access to and use of the websites, mobile apps, widgets, APIs, emails, and other online products and services (collectively, the “Services”) provided by us.
+
+Remember SingleParentCommunity is to meet new people and build meaningful relationships, but we still need some basic rules. By accessing or using our Services, you agree to be bound by these Terms. If you do not agree to these Terms, you may not access or use our Services.
+
+Please take a look at SingleParentCommunity’s Privacy Policy too—it explains how and why we collect, use, and share information about you when you access or use our Services.\n\n
+
+ </string>
+    <string name="text2">
+
+        <b>1.Your Access to the Services</b>\n
+You should definitely be a Single Parent to be able to access this app.\n
+Children under the age of 13 are not allowed to create an Account or otherwise use the Services. Additionally, you must be over the age required by the laws of your country to create an account or otherwise use the Services.\n
+In addition, certain of our Services or portions of our Services require you to be 18 years of age or older, so please read all notices and any Additional Terms carefully when you access the Services.\n\n
+
+ </string>
+    <string name="text3">
+      <b>2. Your Use of the Services</b>\n
+     This App grants you a personal, non-transferable, non-exclusive, revocable, limited license to use and access the Services solely as permitted by these Terms. We reserve all rights not expressly granted to you by these Terms.\n
+Except as permitted through the Services or as otherwise permitted by us in writing, your license does not include the right to:\n
+•	license, sell, transfer, assign, distribute, host, or otherwise commercially exploit the Services or Content;
+•	We reserve the right to modify, suspend, or discontinue the Services (in whole or in part) at any time, with or without notice to you. Any future release, update, or other addition to functionality of the Services will be subject to these Terms, which may be updated from time to time. You agree that we will not be liable to you or to any third party for any modification, suspension, or discontinuation of the Services or any part thereof.\n\n
+
+ </string>
+    <string name="text4">
+
+        <b>3. Your Account and Account Security</b>\n
+To use certain features of our Services, you may be required to create an “Account” and provide us with a username, password, and certain other information about yourself as set forth in the Privacy Policy.\n
+You are solely responsible for the information associated with your Account and anything that happens related to your Account. You must maintain the security of your Account and immediately notify the admin if you discover or suspect that someone has accessed your Account without your permission. We recommend that you use a strong password that is used only with your Account and enable two-factor authentication.\n
+You will not license, sell, or transfer your Account without our prior written approval.\n\n
+
+ </string>
+    <string name="text5">
+
+        <b>4. Your Content</b>\n
+
+The Services may contain information, text, links, graphics, photos, videos, or other materials (“Content”), including Content created or submitted to the Services by you or through your Account (“Your Content”). We take no responsibility for and we do not expressly or implicitly endorse, support, or guarantee the completeness, truthfulness, accuracy, or reliability of any of Your Content.\n
+By submitting Your Content to the Services, you represent and warrant that you have all rights, power, and authority necessary to grant the rights to Your Content contained within these Terms. Because you alone are responsible for Your Content, you may expose yourself to liability if you post or share Content without all necessary rights.\n\n
+
+ </string>
+    <string name="text6">
+
+       <b>5. Third-Party Content, Advertisements, and Promotions</b>\n
+The Services may contain links to third-party websites, products, or services, which may be posted by advertisers, our affiliates, our partners, or other users (“Third-Party Content”). Third-Party Content is not under our control, and we are not responsible for any third party’s websites, products, or services. Your use of Third-Party Content is at your own risk and you should make any investigation you feel necessary before proceeding with any transaction in connection with such Third-Party Content.\n
+The Services may also contain sponsored Third-Party Content or advertisements. The type, degree, and targeting of advertisements are subject to change, and you acknowledge and agree that we may place advertisements in connection with the display of any Content or information on the Services, including Your Content.\n\n
+
+ </string>
+
+    <string name="text7">
+
+       <b>6. Limitation of Liability</b>\n
+•	IN NO EVENT AND UNDER NO THEORY OF LIABILITY, INCLUDING CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, WARRANTY, OR OTHERWISE, WILL THE REDDIT ENTITIES BE LIABLE TO YOU FOR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, OR LOST PROFITS ARISING FROM OR RELATING TO THESE TERMS OR THE SERVICES, INCLUDING THOSE ARISING FROM OR RELATING TO CONTENT MADE AVAILABLE ON THE SERVICES THAT IS ALLEGED TO BE DEFAMATORY, OFFENSIVE, OR ILLEGAL. ACCESS TO, AND USE OF, THE SERVICES IS AT YOUR OWN DISCRETION AND RISK, AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR DEVICE OR COMPUTER SYSTEM, OR LOSS OF DATA RESULTING THEREFROM. \n\n
+
+
+ </string>
+    <string name="text8">
+
+       <b>7. Disclaimers</b>\n
+•	THE SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, TITLE, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. SINGLEPARENTAPP ENTITIES DO NOT WARRANT THAT THE SERVICES ARE ACCURATE, COMPLETE, RELIABLE, CURRENT, OR ERROR FREE. SINGLEPARENTAPP DOES NOT CONTROL, ENDORSE, OR TAKE RESPONSIBILITY FOR ANY CONTENT AVAILABLE ON OR LINKED TO THE SERVICES OR THE ACTIONS OF ANY THIRD PARTY OR USER, INCLUDING MODERATORS. WHILE REDDIT ATTEMPTS TO MAKE YOUR ACCESS TO AND USE OF OUR SERVICES SAFE, WE DO NOT REPRESENT OR WARRANT THAT OUR SERVICES OR SERVERS ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.\n\n
+
+
+ </string>
+
+    <string name="text9">
+
+    <b>8. Changes to these Terms</b>\n
+    •	We may make changes to these Terms from time to time. If we make changes, we will post the revised Terms and update the Effective Date above. If the changes, in our sole discretion, are material, we may also notify you by sending an email to the address associated with your Account (if you have chosen to provide an email address) or by otherwise providing notice through our Services. By continuing to access or use the Services on or after the Effective Date of the revised Terms, you agree to be bound by the revised Terms. If you do not agree to the revised Terms, you must stop accessing and using our Services before the changes become effective.\n\n
+</string>
+    <string name="text10">
+
+        <b>11. Termination</b>\n
+•	You may terminate these Terms at any time and for any reason by deleting your Account and discontinuing use of all Services. If you stop using the Services without deactivating your Account, your Account may be deactivated due to prolonged inactivity.
+•	We may suspend or terminate your Account, moderator status, or ability to access or use the Services at any time for any or no reason, including for violating these Terms or our Content Policy.
+•	The following sections will survive any termination of these Terms or of your Account: 4 (Your Content), 6 (Things You Cannot Do), 10 (Indemnity), 11 (Disclaimers), 12 (Limitation of Liability), 13 (Governing Law and Venue), 16 (Termination), and 17 (Miscellaneous).\n\n
+
+</string>
+
+    <string name="Privacy">
+
+     We want you to understand how and why SingleParentCommunity collects, uses, and shares information about you when you use our sites, mobile apps, widgets, and other online products and services (collectively, the "Services") or when you otherwise interact with us or receive a communication from us. This Privacy Policy applies to all of our Services, which maintains a separate privacy notice that incorporates this Privacy Policy by reference.\n\n
+
+     <b>What We Collect (and How it is Used and Shared)</b>\n\n
+
+     <b>Information You Provide to Us</b>\n\n
+We collect information you provide to us directly when you use the Services. This includes:\n\n
+
+<b>Account information</b>\n
+If you create a SingleParentCommunity account, we may require you to provide a username and password. Your username is public, and it doesn’t have to be related to your real name. You may also provide other account information, like an email address, bio, or profile picture. We also store your user account preferences and settings.\n
+
+<b>Content you submit</b>\n
+We collect the content you submit to the Services. This includes your posts and comments including saved drafts, and your reports and other communications with moderators and with us. Your content may include text, links, images, gifs, and videos.\n
+
+<b>Actions you take</b>\n
+We collect information about the actions you take when using the Services. This includes your interactions with content, like voting, saving, hiding, and reporting. It also includes your interactions with other users, such as following, friending, and blocking. We collect your interactions with communities, like your subscriptions or moderator status.\n
+
+<b>Transactional information</b>\n
+If you purchase products or services from us (e.g., SPDA Premium or SPDA Coins), we will collect certain information from you, including your name, address, email address, and information about the product or service you are purchasing. Reddit uses industry-standard payment processor services (for example, Stripe) to handle payment information.\n
+
+<b>Other information</b>
+You may choose to provide other information directly to us. For example, we may collect information when you fill out a form, participate in SingleParentCommunity -sponsored activities or promotions, request customer support, or otherwise communicate with us.\n\n
+
+     <b>Information We Collect Automatically</b>\n\n
+When you access or use our Services, we may also automatically collect information about you. This includes:\n
+
+     <b>Log and usage data</b>\n
+We may log information when you access and use the Services. This may include your IP address, user-agent string, browser type, operating system, referral URLs, device information (e.g., device IDs), device settings, pages visited, links clicked, the requested URL, and search terms. Except for the IP address used to create your account, SingleParentCommunity will delete any IP addresses collected after 100 days.\n
+
+<b>Information collected from cookies and similar technologies</b>\n
+We may receive information from cookies, which are pieces of data your browser stores and sends back to us when making requests, and similar technologies. We use this information to improve your experience, understand user activity, personalize content and advertisements, and improve the quality of our Services.\n
+
+
+<b>Location information</b>\n
+We may receive and process information about your location. For example, with your consent, we may collect information about the specific location of your mobile device (for example, by using GPS or Bluetooth). We may also receive location information from you when you choose to share such information on our Services, including by associating your content with a location, or we may derive your approximate location from other information about you, including your IP address.\n\n
+
+     <b>Information Collected from Other Sources</b>b>\n\n
+We may receive information about you from other sources, including from other users and third parties, and combine that information with the other information we have about you. For example, we may receive demographic or interest information about you from third parties, including advertisers (such as the fact that an advertiser is interested in showing you an ad), and combine it with our own data using a common account identifier such as a hash of an email address or a mobile-device ID. You can control how we use this information to personalize the Services for you as described in “Your Choices - Controlling Advertising and Analytics” below.\n
+
+<b>Linked services</b>\n
+If you authorize or link a third-party service (e.g., an unofficial mobile app client) to access your SingleParentCommunity account, SingleParentCommunity receives information about your use of that service when it uses that authorization. Linking services may also cause the other service to send us information about your account with that service. \n\n
+
+<b>Information collected from integrations</b>\n\n
+We also may receive information about you, including log and usage data and cookie information, from third-party sites that integrate our Services, including our embeds and advertising technology. \n\n
+We use information about you to:\n
+•	Provide, maintain, and improve the Services;
+•	Research and develop new services;
+•	Help protect the safety of SingleParentCommunity and our users, which includes blocking suspected spammers, addressing abuse, and enforcing the SingleParentCommunity User Agreement and our other policies;
+•	Send you technical notices, updates, security alerts, invoices, and other support and administrative messages;
+•	Provide customer service;
+•	Communicate with you about products, services, offers, promotions, and events, and provide other news and information we think will be of interest to you (for information about how to opt out of these communications, see “Your Choices” below);
+•	Monitor and analyze trends, usage, and activities in connection with our Services;
+•	Measure the effectiveness of ads shown on our Services; and
+•	Personalize the Services, and provide and optimize advertisements, content, and features that match user profiles or interests.\n\n
+     <b>Your Choices</b>\n\n
+You have choices about how to protect and limit the collection, use, and sharing of information about you when you use the Services. Some of these choices are available to everyone who uses SingleParentCommunity, while others only apply if you have a SingleParentCommunity account.\n
+<b>Accessing and Changing Your Information</b>\n
+You can access and change certain information through the Services.. You can also request a copy of the personal information.\n
+
+<b>Deleting Your Account</b>\n
+You may delete your account information at any time from the user preferences page. You can also submit a request to delete the personal information SingleParentCommunity maintains about you by following the process described in the “Your Rights - Data Subject and Consumer Information Requests” section below. When you delete your account, your profile is no longer visible to other users and disassociated from content you posted under that account. Please note, however, that the posts, comments, you submitted prior to deleting your account will still be visible to others unless you first delete the specific content. We may also retain certain information about you as required by law or for legitimate business purposes after you delete your account.\n
+
+
+<b>Controlling the Use of Cookies</b>\n
+Most web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove or reject first- and third-party cookies. Please note that if you choose to remove or reject cookies, this could affect the availability and functionality of our Services.\n
+
+<b>Controlling Advertising and Analytics</b>\n
+Some analytics providers we partner with may provide specific opt-out mechanisms and we may provide, as needed and as available, additional tools and third-party services that allow you to better understand cookies and how you can opt out.
+We also offer you choices about receiving personalized advertisements. You can adjust how we personalize advertisements for you by visiting your ads preferences in your account settings, \n
+
+<b>Do Not Track</b>\n
+Most modern web browsers give you the option to send a Do Not Track signal to the sites you visit, indicating that you do not wish to be tracked. However, there is no accepted standard for how a site should respond to this signal, and we do not take any action in response to this signal. Instead, in addition to publicly available third-party tools, we offer you the choices described in this policy to manage the collection and use of information about you.\n
+
+
+<b>Controlling Mobile Notifications</b>\n
+With your consent, we may send promotional and non-promotional push notifications or alerts to your mobile device. You can deactivate these messages at any time by changing the notification settings on your mobile device.\n
+
+<b>Controlling Location Information</b>\n
+You can control how we use location information inferred from your IP address for content recommendation purposes via the Safety and Privacy settings on your account. If you initially consent to our collection of more precise location information from your device, you can subsequently stop the collection of this information at any time by changing the preferences on your mobile device.\n\n
+
+     <b>Changes to This Policy</b>\n
+We may change this Privacy Policy from time to time. If we do, we will let you know by revising the date at the top of the policy. If the changes, in our sole discretion, are material, we may also notify you by sending an email to the address associated with your account (if you have chosen to provide an email address) or by otherwise providing notice through our Services. We encourage you to review the Privacy Policy whenever you access or use our Services or otherwise interact with us to stay informed about our information practices and the ways you can help protect your privacy. By continuing to use our Services after Privacy Policy changes go into effect, you agree to be bound by the revised policy.
+
+
+ </string>
+
+</resources>

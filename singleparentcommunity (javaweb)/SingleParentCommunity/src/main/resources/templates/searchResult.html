@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" th:href="@{css/index.css}"/>
+<title>Home Page</title>
+</head>
+<body>
+	<div th:replace="layout/layout.html :: menu"></div>
+	<h2 style="text-align: center">Search Result</h2>
+
+	<div align="center">
+		<form action="#" th:action="@{/search}" method="post">
+			<table style="text-align:center ; font-weight: bold">
+				<tr>
+					<td><fieldset><input type="text" name="keyword" /></fieldset></td>
+					<td><fieldset><input type="submit" value="Search" /></fieldset></td>
+				<tr>
+			</table>
+		</form>
+	</div>
+
+	<br/>
+
+	<h2 th:if="${#lists.isEmpty(users)}" style="text-align: center">Users
+		List is empty</h2>
+	<div align="center">
+		<table th:if="${not #lists.isEmpty(users)}" id="customers"
+			style="width: 70%; text-align: center">
+			<tr>
+				<th style="text-align: center">Full Name</th>
+				<th style="text-align: center">Username</th>
+				<th style="text-align: center">Email</th>
+			</tr>
+
+			<tr th:each="user:${users}" class="table-row">
+				<td><a th:href="@{/detail/}+${user.username}"
+					th:text="${user.fullName}">Full Name</a></td>
+				<td th:text="${user.username}">Username</td>
+				<td th:text="${user.email}">Email</td>
+		</table>
+	</div>
+	
+	<a th:href="@{/}"><button>Back to Home</button></a>
+	
+	<div th:replace="layout/layout.html :: footer"></div>
+</body>
+</html>

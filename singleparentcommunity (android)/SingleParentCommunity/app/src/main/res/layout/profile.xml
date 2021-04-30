@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/artifika"
+
+        android:text="Update Password"
+        android:textColor="#070000"
+        android:textColorHighlight="#9A0630"
+        android:textSize="15dp"
+        app:drawableLeftCompat="@drawable/ic_baseline_vpn_key_24" />
+
+
+    <TextView
+        android:id="@+id/updatename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/artifika"
+
+        android:text="Update Fullname"
+        android:textColor="#070000"
+        android:textColorHighlight="#9A0630"
+        android:textSize="15dp"
+        app:drawableLeftCompat="@drawable/ic_baseline_person_focused" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/deleteProfile"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:fontFamily="@font/artifika"-->
+
+<!--        android:text="Delete Profile"-->
+<!--        android:textColor="#070000"-->
+<!--        android:textColorHighlight="#9A0630"-->
+<!--        android:textSize="20dp"-->
+<!--        app:drawableLeftCompat="@drawable/ic_baseline_delete_24"/>-->
+
+
+</LinearLayout>
