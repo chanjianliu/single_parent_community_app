@@ -1,3 +1,12 @@
+Note: In this project I worked on: 
+- connection of Google Cloud FireStore to the app and management system
+- push notification on the app with Cloud Messaging & Retrofit 2
+- FireStore query for personalised category subscription for forum and search function for friends
+- SpringBoot to Flask call through http request and response to invoke ML calculations. 
+- supported in debugging with teammates
+
+
+
 Team 9: Single Parent Community App
 
 
